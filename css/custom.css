@@ -8,13 +8,48 @@
 }
 
 body {
-    font-family: sans-serif, 'Nunito';
+    font-family: 'cocogooselight', 'Nunito';
 }
 
-.carousel-inner {
-    height: 600px;
+.number {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
 }
 
+@media (min-width: 992px) {
+  .carousel-inner {
+    height: 700px;
+}
+}
+
+@media (min-width: 992px){
+  #mainNav {
+    background: linear-gradient(white 1%, transparent);
+  }
+}
+
+
+@media (min-width: 992px) {
+  #mainNav .nav-link {
+    padding: 1rem 1.5rem;
+  }
+}
+
+
+#mainNav.navbar-shrink {
+  background-color: #fff;
+  background: white;
+}
+
+#mainNav .navbar-brand {
+  padding: 0;
+}
+
+#mainNav .navbar-toggler {
+  color: #c07c6c;
+  border: 1px solid #c07c6c;
+}
 
 .navbar-nav {
     align-items: center;
@@ -37,7 +72,7 @@ a:hover {
 .footer {
     background-color: #c07c6c; 
     /* #cc9c94 #c88a7d*/
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 .social a {
@@ -51,6 +86,9 @@ a:hover {
 
 }
 
+#mainNav {
+  background-color: transparent;
+}
 
 #mainNav.navbar-shrink .nav-link.active {
     color: #c07c6c;
@@ -61,9 +99,52 @@ a:hover {
     color: #c07c6c; 
 }
 
-.nav-link.disabled {
-  color: #c07c6c; 
+@media (min-width: 992px) {
+  #mainNav .nav-link {
+  color:black;
+  }
 }
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .nav-link {
+    padding: 0 20px;  
+  }
+}
+
+
+.navlink img {
+  padding: 0 20px;
+}
+
+.about-section {
+  background:#fffaf6 !important;
+}
+
+.projects-section {
+  padding: 5rem 0;
+}
+
+@media (min-width: 992px) {
+.projects-section .featured-text {
+    border-left: 0.5rem solid #efd6bd;
+}
+}
+
+@media (min-width: 992px) {
+  .tagline {
+    margin-top: 10rem;
+  }
+}
+
+.about-section p {
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+
+.whoweare p {
+  font-size: 14px;
+}
+
 
 .projects-section project-text {
   padding: 2rem;
@@ -85,6 +166,8 @@ a:hover {
   border: 1px solid #c07c6c; 
   background-color: white;
   color: #c07c6c; 
+  font-family: 'cocogooselight', 'Nunito';
+  
 }
 
 .btn-casca:hover, .btn-casca:active {
@@ -115,12 +198,34 @@ a:hover {
   color: black;
 }
 
+@media (min-width: 992px) {
+  .treatment-section {
+    padding: 15rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .pertreatment-section {
+    padding: 15rem 0;
+  }
+}
+
 .treatment {
-  padding: 2.5rem;
+  padding: 3rem;
 }
 
 .treatment h4 {
   padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.accordion-button {
+  font-size: 14px;
+}
+
+.accordion-body {
+  font-size: 13px;
 }
 
 .accordion-flush .accordion-item:first-child {
