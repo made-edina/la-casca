@@ -11,6 +11,10 @@ body {
     font-family: 'cocogooselight', 'Nunito';
 }
 
+h4 {
+  font-size: 16px;  
+}
+
 .number {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 0.1rem;
@@ -103,6 +107,10 @@ a:hover {
   #mainNav .nav-link {
   color:black;
   }
+
+  #mainNav .nav-link:active, #mainNav .nav-link:hover  {
+    color: #c07c6c;
+  }
 }
 
 @media (min-width: 992px) {
@@ -116,10 +124,7 @@ a:hover {
   padding: 0 20px;
 }
 
-.about-section {
-  background:#fffaf6 !important;
-}
-
+/* TREATMENTS */
 .projects-section {
   padding: 5rem 0;
 }
@@ -130,10 +135,61 @@ a:hover {
 }
 }
 
+/* .about-text {
+  font-size: 3rem;
+  color:goldenrod;
+  text-shadow: 1px 1px 2px #e8c4a2;
+} */
+
+
+/* ABOUT US */
+.masthead {
+  background: url("/assets/img/5589238.jpg") !important;
+}
+
+.about-section {
+  background:#ffeedd !important;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+
+}
+
+/* @media (min-width: 992px) {
+  .about-section{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+} */
+
+.tagline {
+  /* position: relative; */
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 @media (min-width: 992px) {
   .tagline {
     margin-top: 10rem;
   }
+}
+
+.tagline-small {
+  font-size: 4rem;
+  align-items: baseline;
+  position: relative;
+}
+
+.text-tagline {
+  font-size: 6rem;
+  color: #e8c4a2;
+  text-shadow: 1px 1px 2px #efd6bd;
 }
 
 .about-section p {
@@ -145,12 +201,22 @@ a:hover {
   font-size: 14px;
 }
 
+@media (min-width: 992px) {
+  .flip-order {
+    order: -1;
+  }
+}
+
 
 .projects-section project-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
+  .projects-section {
+    padding: 10rem 0;
+  }
+
   .projects-section .project-text {
     padding: 4rem;
     padding-bottom: 0;
@@ -201,6 +267,7 @@ a:hover {
 @media (min-width: 992px) {
   .treatment-section {
     padding: 15rem 0;
+    
   }
 
   .treatment {
@@ -211,6 +278,7 @@ a:hover {
 @media (min-width: 992px) {
   .pertreatment-section {
     padding: 15rem 0;
+    padding-bottom: 10rem;
   }
 }
 
@@ -236,4 +304,11 @@ a:hover {
 
 .accordion-flush .accordion-item:last-child {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* FIND US */
+@media (min-width: 992px) {
+  .visit {
+    padding: 0 5rem;
+  }
 }
