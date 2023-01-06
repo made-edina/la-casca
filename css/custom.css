@@ -59,6 +59,11 @@ h4 {
     align-items: center;
 }
 
+.treatmentlink {
+  text-decoration: none;
+  color:black;
+}
+
 a {
   color: white;
   text-decoration: underline;
