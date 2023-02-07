@@ -158,8 +158,11 @@ a:hover {
 
 .about-section {
   background: #ffeedd !important;
-
   background-size: cover;
+}
+
+.about-us-section {
+  padding: 3rem 1rem;
 }
 
 /* @media (min-width: 992px) {
@@ -246,7 +249,6 @@ a:hover {
 }
 
 .treatment-section {
-  padding-top: 8rem;
   padding-bottom: 3rem;
 }
 
@@ -307,7 +309,8 @@ a:hover {
     padding: 3rem 0;
   }
 
-  .projects-section .featured-text {
+  .about-us-section .featured-text {
+    padding: 0 0 0 2rem;
     border-left: 0.5rem solid #efd6bd;
   }
 
@@ -356,5 +359,10 @@ a:hover {
 
   .tagline-small {
     font-size: 3rem;
+  }
+
+  .projects-section {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
   }
 }
