@@ -123,6 +123,16 @@ a:hover {
   padding: 1rem 0;
 }
 
+.treatments-image {
+  height: 300px;
+}
+
+.treatments-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* .about-text {
   font-size: 3rem;
   color:goldenrod;
@@ -157,7 +167,6 @@ a:hover {
 }
 
 .about-section {
-  background: #ffeedd !important;
   background-size: cover;
 }
 
@@ -185,7 +194,6 @@ a:hover {
 
 .tagline-small {
   font-size: 4rem;
-  align-items: baseline;
   position: relative;
 }
 
@@ -202,6 +210,19 @@ a:hover {
 
 .whoweare p {
   font-size: 14px;
+}
+
+/* TREATMENT PAGE */
+
+.treatment-image__container {
+  height: 400px;
+}
+
+.treatment-image__container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .projects-section .project-text {
@@ -285,7 +306,8 @@ a:hover {
   }
 
   #mainNav {
-    background: linear-gradient(white 1%, transparent);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background: linear-gradient(rgba(255,255,255,1) 1%, transparent);
   }
 
   #mainNav .nav-link {
@@ -319,7 +341,7 @@ a:hover {
   }
 
   .projects-section .project-text {
-    padding: 4rem;
+    padding: 3rem;
     padding-bottom: 0;
   }
 
@@ -365,4 +387,12 @@ a:hover {
     padding-top: 8rem;
     padding-bottom: 5rem;
   }
+
+  
+}
+
+@media (max-width: 576px) {
+  .treatments-image {
+    height: 190px;
+}
 }
