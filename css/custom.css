@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "cocogooselight", "Nunito";
+  font-family: "cocogooselight", "Trebuchet MS";
 }
 
 h4 {
@@ -42,7 +42,7 @@ h4 {
 
 .reservation--button {
   position: absolute;
-  right: 55px;
+  right: 40px;
   /* border: 1px solid white; */
   background-color: white; 
   /* background: linear-gradient(90deg, rgba(200,138,125,1) 81%, rgba(255,255,255,1) 100%); */
@@ -58,7 +58,7 @@ h4 {
   cursor: pointer;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5rem 1rem;
 }
 
 .reservation--button:hover,
@@ -83,11 +83,10 @@ a:hover {
 
 .contact-section {
   padding-bottom: 5rem;
-  /* background-color: #ffe4c9; */
 }
+
 .footer {
   background-color: #c07c6c;
-  /* #cc9c94 #c88a7d*/
   padding: 1.5rem;
 }
 
@@ -133,11 +132,6 @@ a:hover {
   object-fit: cover;
 }
 
-/* .about-text {
-  font-size: 3rem;
-  color:goldenrod;
-  text-shadow: 1px 1px 2px #e8c4a2;
-} */
 
 /* TESTIMONI */
 
