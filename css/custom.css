@@ -348,7 +348,7 @@ a:hover {
   }
 
   .about-us-section .featured-text {
-    padding: 0 0 0 2rem;
+    padding: 0 2rem;
     border-left: 0.5rem solid #efd6bd;
   }
 
@@ -404,16 +404,15 @@ a:hover {
     padding-bottom: 5rem;
   }
 
+  .treatment-image__container {
+    height: 300px;
+  }
   
 }
 
 @media (max-width: 576px) {
   .treatments-image {
     height: 190px;
-}
-
-.treatment-image__container {
-  height: 300px;
 }
 
 }
