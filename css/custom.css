@@ -12,7 +12,7 @@ body {
 
 #page__container {
   position: relative;
-  min-height: calc(100vh - 9.5rem) ;
+  min-height: calc(100vh - 9.5rem);
 }
 
 h4 {
@@ -49,7 +49,7 @@ h4 {
   position: absolute;
   right: 40px;
   /* border: 1px solid white; */
-  background-color: white; 
+  background-color: white;
   /* background: linear-gradient(90deg, rgba(200,138,125,1) 81%, rgba(255,255,255,1) 100%); */
   background-color: #c07c6c;
   /* color: #c07c6c; */
@@ -70,7 +70,7 @@ h4 {
 .reservation--button:active {
   border: 1px solid #c07c6c;
   background-color: transparent;
- color: #c07c6c;
+  color: #c07c6c;
 }
 
 .treatmentlink {
@@ -92,7 +92,7 @@ a:hover {
 
 .footer {
   background-color: #c07c6c;
-  height: 9.5rem;  
+  height: 9.5rem;
   padding: 1.5rem;
   position: absolute;
   /* bottom: 0; */
@@ -126,25 +126,71 @@ a:hover {
   padding: 0 20px;
 }
 
-CAROUSEL
-/* .carousel-control-prev {
+CAROUSEL .carousel-control-prev {
   width: 5%;
 }
 
 .carousel-control-next {
   width: 5%;
-} */
-
+}
 
 .promotion {
-  background-image: url(/assets/img/carousel/promo-page.png);
-  background-size: cover;
   /* position: absolute !important; */
-  top: 150px;
+  /* top: 150px; */
+  color: white;
+  width: 100%;
 }
-  
 
+.promotion--title {
+  /* margin-top: 150px; */
+  background-color: #fbf1ef;
+  margin-top: 15vw;
+  margin-left: 5px;
+  margin-bottom: -2vw;
+  padding: 5px 0;
+  color: gray;
+  padding: 5px 0;
+  color: gray;
+  /* margin-left: 3vw; */
+  font-size: 3vw;
+  font-weight: 600;
+}
 
+.discount {
+  position: absolute;
+  top: 27vw;
+  right: 26vw;
+  font-size: 3vw;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(158, 158, 158);
+}
+
+.discount-number {
+  font-weight: 800;
+  font-size: 14vw;
+  margin-left: 14vw;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.percent {
+  width: 6vw;
+  height: 6vw;
+  background-color: #cc9c94;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 12vw;
+  right: 5vw;
+  font-size: 4vw;
+}
+
+.promotion--desc {
+  font-size: 2vw;
+  margin-left: 15vw;
+  margin-top: -3vw;
+}
 
 /* TREATMENTS */
 .projects-section {
@@ -160,7 +206,6 @@ CAROUSEL
   width: 100%;
   object-fit: cover;
 }
-
 
 /* TESTIMONI */
 
@@ -197,7 +242,8 @@ CAROUSEL
 }
 
 .about-section,
-.instagram-section, .testimoni-section {
+.instagram-section,
+.testimoni-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -339,7 +385,7 @@ CAROUSEL
 @media (min-width: 992px) {
   #mainNav {
     /* background-color: rgba(255, 255, 255, 0.5); */
-    background: linear-gradient(rgba(255,255,255,1) 1%, transparent);
+    background: linear-gradient(rgba(255, 255, 255, 1) 1%, transparent);
   }
 
   #mainNav .nav-link {
@@ -358,6 +404,10 @@ CAROUSEL
   #mainNav.navbar-shrink .nav-link {
     padding: 0 20px;
   }
+
+  /* .carousel-inner {
+    height: 
+  } */
 
   .projects-section {
     padding: 3rem 0;
@@ -423,12 +473,21 @@ CAROUSEL
   .treatment-image__container {
     height: 300px;
   }
-  
 }
 
 @media (max-width: 576px) {
   .treatments-image {
     height: 190px;
+  }
 }
 
+@media (min-width: 577px) {
+  .discount {
+    top: 25.5vw;
+    right: 25vw;
+  }
+
+  .percent {
+    bottom: 9vw;
+  }
 }
