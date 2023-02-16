@@ -122,11 +122,13 @@ a:hover {
   padding: 0 20px;
 }
 
-CAROUSEL .carousel-control-prev {
-  width: 5%;
-}
+/* CAROUSEL */
 
-.carousel-control-next {
+/* .carousel-control-prev {
+  width: 5%;
+} */
+
+.carousel-control-prev, .carousel-control-next {
   width: 5%;
 }
 
